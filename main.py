@@ -11,7 +11,7 @@ pygame.mixer.init()
 
 
 def play():  # Função que irá tocar a música
-    pygame.mixer.music.load("C:/Users/vinic/Downloads/SPARKS_FLY_SAMPLE.mp3")
+    pygame.mixer.music.load("SPARKS_FLY_SAMPLE.mp3")
     pygame.mixer.music.play(loops=0)
 
 
